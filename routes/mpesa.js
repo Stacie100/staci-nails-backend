@@ -1,6 +1,7 @@
 import express from "express";
 import axios from "axios";
 import dotenv from "dotenv";
+import { createClient } from "@supabase/supabase-js"; // 👈 this was deleted, add it back
 
 dotenv.config();
 
